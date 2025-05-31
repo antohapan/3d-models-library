@@ -1,0 +1,30 @@
+{
+  "models": [
+    {
+      "id": "sample-cube",
+      "name": "Sample Cube",
+      "filename": "cube.stl",
+      "path": "/models/cube.stl",
+      "tags": ["geometric", "simple", "cube"],
+      "description": "A simple cube model for testing",
+      "dateAdded": "2024-01-01"
+    },
+    {
+      "id": "sample-sphere",
+      "name": "Sample Sphere",
+      "filename": "sphere.stl",
+      "path": "/models/sphere.stl",
+      "tags": ["geometric", "simple", "sphere"],
+      "description": "A simple sphere model for testing",
+      "dateAdded": "2024-01-01"
+    },
+    {
+      "id": "dji-o4-pro-long-antenna-03",
+      "name": "DJI O4 Pro Long Antenna 03",
+      "filename": "dji o4 pro long antenna 03.stl",
+      "path": "/models/dji o4 pro long antenna 03.stl",
+      "tags": ["antenna", "dji", "o4", "pro", "long"],
+      "dateAdded": "2024-01-01"
+    }
+  ]
+} 
