@@ -1,26 +1,75 @@
 {
   "models": [
     {
-      "id": "sample-cube",
-      "name": "Sample Cube",
-      "filename": "cube.stl",
-      "tags": ["geometric", "simple", "cube"],
-      "description": "A simple cube model for testing",
+      "id": "dji-o4-camera-mount-35-45",
+      "name": "DJI O4 Camera Mount 35-45",
+      "filename": "dji o4 camera mount 35-45.stl",
+      "tags": ["dji", "o4"],
+      "description": "Camera mount for DJI O4 with 35-45 degree angle",
       "dateAdded": "2024-01-01"
     },
     {
-      "id": "sample-sphere",
-      "name": "Sample Sphere",
-      "filename": "sphere.stl",
-      "tags": ["geometric", "simple", "sphere"],
-      "description": "A simple sphere model for testing",
+      "id": "dji-o4-lite",
+      "name": "DJI O4 Lite Mount",
+      "filename": "dji o4 lite.stl", 
+      "tags": ["mount", "dji", "o4"],
+      "description": "Mounting solution for DJI O4 Lite",
       "dateAdded": "2024-01-01"
     },
     {
-      "id": "dji-o4-pro-long-antenna-03",
-      "name": "DJI O4 Pro Long Antenna 03",
-      "filename": "dji o4 pro long antenna 03.stl",
-      "tags": ["antenna", "dji", "o4", "pro", "long"],
+      "id": "dji-o4-mount-1",
+      "name": "DJI O4 Mount Type 1",
+      "filename": "dji o4 mount 1.stl",
+      "tags": ["mount", "dji", "o4"],
+      "description": "Type 1 mount for DJI O4",
+      "dateAdded": "2024-01-01"
+    },
+    {
+      "id": "dji-o4-mount-2", 
+      "name": "DJI O4 Mount Type 2",
+      "filename": "dji o4 mount 2.stl",
+      "tags": ["mount", "dji", "o4"],
+      "description": "Type 2 mount for DJI O4",
+      "dateAdded": "2024-01-01"
+    },
+    {
+      "id": "dji-o4-mount-3",
+      "name": "DJI O4 Mount Type 3",
+      "filename": "dji o4 mount 3.stl",
+      "tags": ["mount", "dji", "o4"],
+      "description": "Type 3 mount for DJI O4",
+      "dateAdded": "2024-01-01"
+    },
+    {
+      "id": "face-protection-v1",
+      "name": "Face Protection V1",
+      "filename": "face protection v1.stl",
+      "tags": ["protection", "face", "safety"],
+      "description": "Version 1 of face protection gear",
+      "dateAdded": "2024-01-01"
+    },
+    {
+      "id": "face-protection-v2",
+      "name": "Face Protection V2",
+      "filename": "face protection v2.stl",
+      "tags": ["protection", "face", "safety"],
+      "description": "Version 2 of face protection gear",
+      "dateAdded": "2024-01-01"
+    },
+    {
+      "id": "motor-protector-5mm",
+      "name": "Motor Protector 5mm",
+      "filename": "motor protector 5mm.stl",
+      "tags": ["protection", "motor", "5mm"],
+      "description": "5mm motor protection guard",
+      "dateAdded": "2024-01-01"
+    },
+    {
+      "id": "motor-protector-6mm",
+      "name": "Motor Protector 6mm",
+      "filename": "motor protector 6mm.stl",
+      "tags": ["protection", "motor", "6mm"],
+      "description": "6mm motor protection guard",
       "dateAdded": "2024-01-01"
     }
   ]
