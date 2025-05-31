@@ -25,18 +25,16 @@ export class STLLoader {
   }
 
   private parseSTL(data: ArrayBuffer): THREE.BufferGeometry {
-    const reader = new DataView(data);
     const isASCII = this.isASCII(data);
     
     if (isASCII) {
       return this.parseASCII(new TextDecoder().decode(data));
     } else {
-      return this.parseBinary(reader);
+      return this.parseBinary(new DataView(data));
     }
   }
 
   private isASCII(data: ArrayBuffer): boolean {
-    const reader = new DataView(data);
     const header = new TextDecoder().decode(data.slice(0, 80));
     return header.toLowerCase().includes('solid');
   }

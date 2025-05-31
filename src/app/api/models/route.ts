@@ -13,6 +13,14 @@ export async function GET() {
     const configData = fs.readFileSync(configPath, 'utf-8');
     const config = JSON.parse(configData);
     
+    // Automatically add path field based on filename
+    if (config.models) {
+      config.models = config.models.map((model: any) => ({
+        ...model,
+        path: `/models/${model.filename}`
+      }));
+    }
+    
     return NextResponse.json(config);
   } catch (error) {
     console.error('Error reading models config:', error);

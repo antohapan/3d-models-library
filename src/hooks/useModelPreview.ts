@@ -50,8 +50,16 @@ export const useModelPreview = (
     }
   }, [modelUrl, cacheKey, previewOptions]);
 
+  // Cache data interface
+  interface CacheData {
+    timestamp: number;
+    dataUrl: string;
+    modelUrl?: string;
+    options?: PreviewOptions;
+  }
+
   // Check if cache is valid
-  const isCacheValid = useCallback((cacheData: any): boolean => {
+  const isCacheValid = useCallback((cacheData: CacheData): boolean => {
     if (!cacheData || !cacheData.timestamp || !cacheData.dataUrl) {
       return false;
     }

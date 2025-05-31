@@ -98,7 +98,7 @@ export const ModelFilterComponent: React.FC<ModelFilterProps> = ({
             <strong>Active filters:</strong>
             {filter.searchTerm && (
               <span className="ml-2 inline-block bg-yellow-100 text-yellow-800 px-2 py-1 rounded">
-                Search: "{filter.searchTerm}"
+                Search: &quot;{filter.searchTerm}&quot;
               </span>
             )}
             {filter.tags.map((tag) => (
